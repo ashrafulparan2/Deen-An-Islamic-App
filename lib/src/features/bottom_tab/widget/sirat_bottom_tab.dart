@@ -42,15 +42,15 @@ class SiratNavigationBar extends StatelessWidget {
             ),
             BottomNavigationBarItem(
               icon: SvgPicture.asset(
-                'assets/images/navigation_icon/svg/search.svg',
+                'assets/images/navigation_icon/svg/user_tracker.svg',
                 color: Theme.of(context)
                     .bottomNavigationBarTheme
                     .unselectedItemColor,
                 width: 24.sp,
               ),
-              label: 'Search',
+              label: 'Tracking',
               activeIcon: SvgPicture.asset(
-                'assets/images/navigation_icon/svg/search.svg',
+                'assets/images/navigation_icon/svg/user_tracker.svg',
                 color: Theme.of(context)
                     .bottomNavigationBarTheme
                     .selectedItemColor,
@@ -59,15 +59,15 @@ class SiratNavigationBar extends StatelessWidget {
             ),
             BottomNavigationBarItem(
               icon: SvgPicture.asset(
-                'assets/images/navigation_icon/svg/quran_nfill.svg',
+                'assets/images/core/svg/mosque-solid.svg',
                 width: 24.sp,
                 color: Theme.of(context)
                     .bottomNavigationBarTheme
                     .unselectedItemColor,
               ),
-              label: 'Quran',
+              label: 'Mosque',
               activeIcon: SvgPicture.asset(
-                'assets/images/navigation_icon/svg/quran_nfill.svg',
+                'assets/images/core/svg/mosque-solid.svg',
                 color: Theme.of(context)
                     .bottomNavigationBarTheme
                     .selectedItemColor,
@@ -82,7 +82,7 @@ class SiratNavigationBar extends StatelessWidget {
                     .unselectedItemColor,
                 width: 24.sp,
               ),
-              label: 'Bookmark',
+              label: 'Personal Tracker',
               activeIcon: SvgPicture.asset(
                 'assets/images/navigation_icon/svg/bookmark_nfill.svg',
                 color: Theme.of(context)

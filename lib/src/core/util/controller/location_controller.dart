@@ -8,7 +8,7 @@ import 'package:geolocator/geolocator.dart';
 import '../../error/error_code.dart';
 import '../../error/exceptions.dart';
 import '../../error/failures.dart';
-import '../../keys.dart';
+// import '../../keys.dart';
 import '../../network/api_service.dart';
 import '../../network/network_client.dart';
 import '../model/geocoding.dart';
@@ -105,7 +105,7 @@ Future<Either<Failure, Geocoding>> getAddress(
   // / query parameters for get request to get address from api
   Map<String, Object> params = {
     'latlng': '$latitude,$longitude',
-    'key': kGoogleCloudApiKey,
+    'key': 'lklklkjk',
   };
 
   try {

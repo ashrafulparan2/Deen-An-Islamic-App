@@ -17,7 +17,7 @@ class SplashScaffold extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocListener<DatabaseBloc, DatabaseState>(
       listener: (context, state) async {
-        await Future.delayed(Duration(seconds: 2));
+        await Future.delayed(Duration(seconds: 1));
         log('Message : SplashScaffold $state');
         if (state is DatabaseLoaded) {
           Navigator.of(context).pushReplacementNamed(RouteGenerator.tabScreen);
@@ -42,20 +42,14 @@ class SplashScaffold extends StatelessWidget {
             children: [
               ClipRRect(
                 borderRadius: kAppIconBorderRadius,
-                child: SvgPicture.asset(
-                  'assets/images/core/svg/app_logo.svg',
+                child: Image.asset(
+                  'assets/images/core/svg/app_logo.png',
                   width: 128.w,
                 ),
               ),
               SizedBox(
                 height: 16.h,
               ),
-              Text(
-                'Brought to you by Dev Technologies',
-                style: GoogleFonts.kaushanScript(
-                  fontSize: 16.sp,
-                ),
-              )
             ],
           ),
         ),

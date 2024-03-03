@@ -20,35 +20,5 @@ class GeneralOption {
 }
 
 final List<GeneralOption> generalOptions = [
-  GeneralOption(
-    imagePath: 'assets/images/setting_icon/svg/thank.svg',
-    onTap: null,
-    routeName: RouteGenerator.thankyou,
-    title: 'Thank you',
-    subtitle: 'These generous contributors helped make this app a reality!',
-  ),
-  GeneralOption(
-    imagePath: 'assets/images/setting_icon/svg/star.svg',
-    onTap: () async {
-      await launchURL(PLAY_STORE_URL);
-    },
-    title: 'Rate on App Store',
-    subtitle: 'Enjoy using \'Sirate Mustaqeem\'? '
-        'Please leave a review to help other Muslims.',
-  ),
-  GeneralOption(
-    imagePath: 'assets/images/setting_icon/svg/share.svg',
-    onTap: () async {
-      await onShare('Hey! Checkout this app '
-          'https://play.google.com/store/apps/details?id=com.devtechnologies.siratemustaqeem');
-    },
-    title: 'Share with a friend',
-    subtitle: 'Tell others about the app with a link.',
-  ),
-  GeneralOption(
-    imagePath: 'assets/images/setting_icon/svg/donate.svg',
-    onTap: () {},
-    title: 'Support this project',
-    subtitle: 'Support \'Dev Technologies\' project to benifit other Muslims.',
-  ),
+ 
 ];

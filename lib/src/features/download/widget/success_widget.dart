@@ -36,7 +36,7 @@ class SuccessWidget extends StatelessWidget {
               height: 16.h,
             ),
             Text(
-              'Before using \'Sirate Mustaqueem\', '
+              'Before using \'Deen\', '
               'we need to ask for your permission to use your phone services.',
               textAlign: TextAlign.center,
             ),

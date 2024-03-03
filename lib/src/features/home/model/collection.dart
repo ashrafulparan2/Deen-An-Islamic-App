@@ -16,8 +16,8 @@ List<Collection> collections = [
   ),
   Collection(
     'assets/images/collection_icon/svg/hadees.svg',
-    'Hadees',
-    'Coming Soon',
+    'Zakat',
+    RouteGenerator.zakatscreen,
   ),
   Collection(
     'assets/images/collection_icon/svg/duas.svg',
@@ -46,7 +46,7 @@ List<Collection> collections = [
   ),
   Collection(
     'assets/images/collection_icon/svg/other.svg',
-    'Others',
-    'Coming Soon',
+    'Calender',
+    RouteGenerator.calenderscreen,
   ),
 ];

@@ -18,40 +18,24 @@ class GeneralCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(
               8.r,
             ),
-            child: SvgPicture.asset(
-              'assets/images/core/svg/app_logo.svg',
+            child: Image.asset(
+              'assets/images/core/svg/app_logo.png',
               width: 64.w,
             ),
           ),
           Text(
-            'Sirate Mustaqeem',
+            'Deen',
             style: Theme.of(context).textTheme.headlineSmall,
           ),
           SizedBox(
             height: 8.h,
           ),
-          Text(
-            'an app by',
-            style: Theme.of(context).textTheme.bodyLarge,
-          ),
+         
           SizedBox(
             height: 8.h,
           ),
           Text(
-            'Dev Technologies',
-            style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                  fontWeight: FontWeight.bold,
-                  color: Theme.of(context).primaryColor,
-                ),
-          ),
-          SizedBox(
-            height: 8.h,
-          ),
-          Text(
-            'The \'Sirate Mustaqeem\' app is a prodictivity app '
-            'to help Muslims creating better habits '
-            'and increasing their \'iman\' (faith) '
-            ' and \'ibadah\' (acts of worship).',
+            'The \'Deen\' app is a spiritual compass for muslims',
             textAlign: TextAlign.center,
           ),
           ...List.generate(

@@ -33,8 +33,8 @@ class KiblatCard extends StatelessWidget {
                 children: [
                   ClipRRect(
                     borderRadius: kAppIconBorderRadius,
-                    child: SvgPicture.asset(
-                      'assets/images/core/svg/app_logo.svg',
+                    child: Image.asset(
+                      'assets/images/core/svg/app_logo.png',
                       width: 32.w,
                     ),
                   ),
@@ -43,7 +43,7 @@ class KiblatCard extends StatelessWidget {
                   ),
                   Expanded(
                     child: Text(
-                      'Sirate Mustaqeem',
+                      'Deen',
                       style: Theme.of(context).textTheme.headlineSmall,
                     ),
                   ),
@@ -64,18 +64,18 @@ class KiblatCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      'Current Location',
+                      'Chittagong',
                     ),
-                    TextButton(
-                      onPressed: () {
-                        showDialog(
-                            context: context,
-                            builder: (context) => ComingSoonDialog());
-                      },
-                      child: Text(
-                        'Change Location',
-                      ),
-                    )
+                    // TextButton(
+                    //   onPressed: () {
+                    //     showDialog(
+                    //         context: context,
+                    //         builder: (context) => ComingSoonDialog());
+                    //   },
+                    //   child: Text(
+                    //     'Change Location',
+                    //   ),
+                    // )
                   ],
                 ),
               ),
